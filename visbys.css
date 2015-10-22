@@ -1,0 +1,297 @@
+html, body {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a {
+	text-decoration: inherit;
+}
+
+#top-margin {
+	width: 100%;
+	height: 6em;
+	dispaly: block;
+}
+
+.header-content {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 6em;
+	z-index: 999;
+	background-color: black;
+	text-align: left;
+	color: white;
+}
+
+.logo-text-content {
+	position: relative;
+	top: 1em;
+	left: 2em;
+	display: inline;
+}
+
+#site-name-primary {
+	font-size: 32pt;
+	font-weight: bolder;
+}
+
+.title-bar-content {
+	float: right;
+	position: relative;
+	top: 1.5em;
+	display: inline-block;
+}
+
+.bar-btn {
+	margin-right: 1em;
+	font-size: 9pt;
+	color: white;
+}
+
+.page-content {
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	display: block;
+}
+
+.page-one {
+	color: white;
+	background-color: black;
+}
+
+.desc {
+	display: block;
+}
+
+#site-name {
+	letter-spacing: .32em;
+	font-size: 48pt;
+}
+
+#site-desc {
+	margin-left: -12px;
+	font-size: 25pt;
+}
+
+#site-name-in-page-one {
+	margin-top: 2.5em;
+	font-size: 40pt;
+}
+
+#arrow-down-content {
+	height: 2em;
+	width: 2em;
+	margin-left: 49%;
+					transform: rotate(90deg); 
+			 -o-transform: rotate(90deg); 
+	-webkit-transform: rotate(90deg); 
+		 -moz-transform: rotate(90deg);
+}
+
+#arrow-down {
+	margin: 0;
+	padding-left: .45em;
+	padding-right: .45em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	border: 1px solid white;
+	font-size: 16pt;
+	color: yellow;
+	cursor: pointer;
+}
+
+.page-two {
+	color: black;
+	background-color: white;
+}
+
+.top-content-in-page {
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+
+#site-name-in-page-two {
+	font-size: 40pt;
+}
+
+#sit-desc-in-page-two {
+	margin-left: .8em;
+	font-size: 24pt;
+	letter-spacing: .75em;
+}
+
+#content-in-page-two-top {
+	padding: 0 15%;
+}
+
+#top-content-in-page-two {
+	width: 100%;
+	height: 30em;
+	display: table; 
+	border-collapse: collapse;
+}
+
+#left-content-in-page-two {
+	width: 40%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#h-center-content {
+	min-width: 2em;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#right-content-in-page-two {
+	width: 40%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.card-content {
+	width: 100%;
+	height: 7.5em;
+	border: 1px solid #ccc;
+	text-align: left;
+	display: table;
+	border-collapse: collapse;
+}
+
+#top-left-card {
+	margin-bottom: 12em;
+}
+
+.card-img {
+	min-width: 36px;
+	max-width: 36px;
+	min-height: 36px;
+	max-height: 36px;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-right: 1em;
+	border: 1px solid #ccc;
+	padding: 1em;
+	display: table-cell;
+}
+
+.card-text {
+	min-width: 120px;
+	margin-top: 0;
+	padding-top: 1em;
+	text-align: left;
+	display: table-cell;
+	vertical-align: top;
+}
+
+#box-line-content {
+	margin: 0 50%;
+	margin-top: 5em;
+	max-width: .5em;
+	min-width: .5em;
+	display: block;
+}
+
+.box-content {
+	max-width: .5em;
+	min-width: .5em;
+	height: .5em;
+	background-color: rgb(197,154, 111);
+	display: block;
+}
+
+.line-content {
+	margin: 1px 49%;
+	width: 1px;
+	height: 10em;
+	background-color: rgb(197,154, 111);
+}
+
+#top-line {
+	height: 9em;
+}
+
+#bottom-line {
+	height: 4.5em;
+}
+
+#content-in-page-two-bottom {
+	margin-top: 4em;
+	padding: 0 10%;
+	height: 26em;
+	border: 1px solid red;
+}
+
+#graph-content {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid gray;
+}
+
+.graph-text {
+	margin: .5em auto;
+}
+
+.v-line {
+	margin: 0 49%;
+	width: 1px;
+	height: 4em;
+	background-color: black;
+}
+
+#circle-left {
+	border: 1px solid rgb(80,87,93);
+	border-radius: 3em;
+	width: 6em;
+	height: 6em;
+	background-color: rgb(80,87,93);
+	display: inline-block;
+}
+
+#circle-content {
+	width: 100%;
+	height: 10em;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#circle-one {
+	border: 1px solid rgb(5,139,130);
+	border-radius: 5em;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(5,139,130);
+	display: inline-block;
+}
+
+#circle-two {
+	border: 1px solid rgb(3,118,113);
+	border-radius: 5em;
+	width: 70%;
+	height: 90%;
+	background-color: rgb(3,118,113);
+	display: inline-block;
+}
+
+#circle-three {
+	border: 1px solid rgb(1,88,80);
+	border-radius: 5em;
+	width: 70%;
+	height: 90%;
+	background-color: rgb(1,88,80);
+	display: inline-block;
+}
+
+#circle-four {
+	border: 1px solid rgb(4,67,56);
+	border-radius: 3em;
+	width: 6em;
+	height: 6em;
+	background-color: rgb(4,67,56);
+	display: inline-block;
+}
